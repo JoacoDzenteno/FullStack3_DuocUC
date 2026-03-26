@@ -1,0 +1,77 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ServiciocanchasApplication<serviciocanchas>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.clubdeportivo.serviciocanchas.ServiciocanchasApplication",
+            "projectName": "serviciocanchas",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ServicioreservasApplication<servicioreservas>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.clubdeportivo2.servicioreservas.ServicioreservasApplication",
+            "projectName": "servicioreservas",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ApireservasApplication<apireservas>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.apigateway.apireservas.ApireservasApplication",
+            "projectName": "apireservas",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ApireservasApplication<com.apigateway-gateway>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.apigateway.apireservas.ApireservasApplication",
+            "projectName": "com.apigateway-gateway",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ServiciocanchasApplication<com.clubdeportivo-serviciocanchas>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.clubdeportivo.serviciocanchas.ServiciocanchasApplication",
+            "projectName": "com.clubdeportivo-serviciocanchas",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ServicioreservasApplication<com.clubdeportivo2-servicioreservas>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.clubdeportivo2.servicioreservas.ServicioreservasApplication",
+            "projectName": "com.clubdeportivo2-servicioreservas",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-UsuariosApplication<usuarios>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.clubdeportivo.usuarios.UsuariosApplication",
+            "projectName": "usuarios",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
